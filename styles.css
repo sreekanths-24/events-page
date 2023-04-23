@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    background-color: aqua;
+    min-height: 100px;
+    height: fit-content;
+}
+
+h1{
+    font-size: 3rem;
+    padding: 0.25em;
+}
+h2{
+    font-size: 2rem;
+    padding: 0.25em;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+
+.slider-track{
+    overflow:auto;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    width: 100%;  
+    background-color: aqua;  
+}
+
+.slides{
+    width: 250px;
+    height: auto;
+    margin: 2px;
+}
+
+#Button1{
+    display: block;
+    margin: 20px auto;
+    padding: 0.5em;
+    width: 50%;
+    background-color: aqua;
+    max-width: 200px;
+    height: 70px;
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.slider-track::-webkit-scrollbar{
+    height: 0px;
+}
+
+.slider-track::-webkit-scrollbar-thumb{
+    height:  0px;
+}
+
+.slider-track::-webkit-scrollbar-track{
+    background-color: transparent;
+}
