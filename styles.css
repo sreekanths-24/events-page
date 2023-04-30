@@ -1,9 +1,11 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
-
+body{
+    font-family: 'Poppins', sans-serif;
+background-color: #0e0d0d;
+}
 header, footer{
     background-color: aqua;
     min-height: 100px;
@@ -24,12 +26,12 @@ h2{
 }
 
 .slider-track{
-    overflow:auto;
+    overflow: auto;
     height: 40vh;
     display: flex;
     align-items: center;
     width: 100%;  
-    background-color: aqua;  
+    background-image: linear-gradient(#FF2079 ,#440BD4);
 }
 
 .slides{
@@ -43,11 +45,12 @@ h2{
     margin: 20px auto;
     padding: 0.5em;
     width: 50%;
-    background-color: aqua;
+    background-image: linear-gradient(#FF2079 ,#440BD4);
     max-width: 200px;
-    height: 70px;
+    height: 30px;
     text-align: center;
     font-size: 2rem;
+    border-radius: 10px;
     text-decoration: none;
     color: black;
 }
